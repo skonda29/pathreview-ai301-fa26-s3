@@ -151,7 +151,7 @@ warn_return_any = false
 
 [[tool.mypy.overrides]]
 module = "api.routes.health"
-disable_error_code = ["attr-defined", "call-overload", "index"]
+disable_error_code = ["call-overload", "index"]
 
 [[tool.mypy.overrides]]
 module = ["api.routes.profiles", "api.routes.reviews", "core.logging", "core.services.review_service", "ingestion.pipeline", "rag.generator.review_generator"]
